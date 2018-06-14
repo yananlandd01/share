@@ -1,6 +1,7 @@
 module.exports = {
   title: '分享文档',
   description: 'lan写的文档',
+  base:'/share/',
   themeConfig: {
   	nav: [
       { text: 'github', link: 'https://github.com/lanyanan' },
@@ -11,7 +12,7 @@ module.exports = {
         children: [
         	['/', 'original'],
           ['/modern', 'modern'],
-          ['/feature', 'feature'],
+          ['/future', 'future'],
         ]
       }
       ]
